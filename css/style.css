@@ -198,31 +198,7 @@ img {
 }
 
 /* --------- Preload Spinner--------- */
-.preloadSpinner{
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	background-color: #ffffff;
-	z-index: 99999;
-}
 
- .preloadSpinner::after{
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -50px;
-	margin-left: -50px;
-	width: 100px;
-	height: 100px;
-	background-color: #f5f7fa;
-	border: 1px solid #3c3c3c;
-	border-top: 10px dotted #02aee8;
-	border-radius: 100%;    
-	animation: spinner 500ms infinite ease-in-out;
-} 
 
 
 @keyframes spinner{
