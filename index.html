@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Description Content -->
+		<meta name="description" content="Business Consultant Application">
+		<!-- Author content below -->
+		<meta name="author" content="OG Web Solutions">
+		<!-- Page title -->
+		<title>BRIDGE Page</title>
+		  <!-- Site Favicon -->
+		<link rel="shortcut icon" href="image/favicon.png"/>
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Product Display Section Style -->
+        <link type="text/css" href="css/comstyle.css" rel="stylesheet">
+        <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/pKf11YFmkpV6sSwK/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+	</head>
+<body>
+   <!--header section start here -->
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-6 col-md-3">
+					<!-- site Logo -->
+					<a href="index.html"> <img src="image/logo-light.svg" alt="logo"></a>
+					</div>
+				<div class="col-lg-6 col-md-6 mail-sec">
+					<ul>
+						<!-- Massage -->
+						<li>Lorem ipsum dolor sit amet.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header section ends here -->
+    <!-- content section start here -->
+    <div class="content">
+        <!-- order banner section start here -->
+        <section class="top-banner">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 all-heading ">
+                        <h1>Is Your Auto Warranty Provider Ripping You Off? </h1><br>
+                        <h3><u>Calculate the true cost of your coverage for free!</u></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Again page section start here  -->
+        <section class="again-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 receive-section text-center">
+                        <h2>You will also get   <span class="heading-color"> 100% free cheat sheet</span></h2>
+                        <p>on how you can reduce your coverage cost!</p>
+                        <img src="image/order-img.png" alt="">
+                        <div class="row justify-content-center">
+                            <div class="col-md-14">
+                                <div class="stack-item consult-exp">
+                                    <ul class="border-0 ">
+                                        <li><b>🔥</b> Slash Your Auto Warranty Bills by <b>Up to 60% With These Secret Tactics</b></li>
+                                        <li>💰 Exposed: Insider Loopholes to <b> Pay Way Less for Coverage Than You Do Now</b></li>
+                                        <li>⚡ Never Overpay for Auto Warranties Again With This <b>Step-by-Step Guide</b></li>
+                                        <li>🤑 How Savvy Drivers Cut Their Coverage Costs in Half <b>(And You Can Too!)</b></li>
+                                        <li>💎 Little-Known Negotiation Scripts to <b>Get The Best Warranty Deal Possible</b></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="form-receive">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-14">
+                                    <div class="form-section">
+                                        <form id="myForm"  method="post" ><br>
+                                            <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                        </form>
+                                        
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 again-price">
+                            <h3><del>Value $99</del></h3>
+                            <h2>(FREE!)</h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-sm-7 col-12">
+                                <div class="button-sec">
+                                    <button onclick='SubForm()' > <span class="title">GET YOUR FREE ASSESSMENT </span>
+                                        <span class="subtitle">(Cheat Sheet Worth $99 Included For Free!) </span></button>
+                                </div></div></div></div></div></section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section start here  -->
+        <section class="again-achievers ">
+            <div class="achievers ">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 text-center again">
+                            <h2>Some Good word For Us From Achievers</h2>
+                            <div class="mid-border"></div>
+                        </div>
+                       
+                        <div class="row justify-content-between mt-md-5 mt-1 achievers-space">
+                            <div class="col-md-6">
+                                <h3 class="mb-2 mt-3"><b>“OMG! I DIDN’T BELIEVE AT FIRST! BUT THIS WORKS! It really works guys! “
+                                </b>
+                                    
+                                </h3>
+                                
+                                <ul>
+                                    <li>
+                                         <span class="ms-2 ach-name"><b style="font-size: 28px;">Alex</b></span> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-2 mt-3"><b>“I was overpaying and when I showed the report to my provider he agreed to reduce my premiums!”</b>
+                                   
+                                </h3>
+                                
+                                <ul>
+                                    <li>
+                                        <span class="ms-2 ach-name"><b style="font-size: 28px;">Katie</b></span> 
+                                    </li>
+                                </ul>
+                                <h3 class="mb-2 mt-3"><b>“WHAT?!! I am saving hundreds on my premiums and it was this easy! Thank you man! THANK YOU!”</b>
+                                    <img src="image/star.png" alt="">
+                                </h3>
+                                
+                                <ul>
+                                    <li><span class="ms-2 ach-name"><b style="font-size: 28px;">Jack</b></span> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section Ends here  -->
+        <!--Again question section start here -->
+        
+    </div>
+    <!-- content section ends here -->
+     <!-- Footer section start here -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-2 footer-logo"> 
+					<!-- Footer Logo -->
+					<a href="index.html"> <img src="image/logo-light.svg" alt="logo"></a>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-8 col-sm-8 copy-right">
+						<ul>
+							<!--Term and conditions , Privacy Policy , GDPR And Support  -->
+							<li><a href="terms-and-conditions.html">Terms</a></li>
+							<li><a href="privacy-policy.html">Privacy</a></li>
+							<li><a href="#">GDPR</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-8 col-sm-8 copy-right">
+						<!-- Copyright Text -->
+						<p>© Copyright <span id="copyright_year"></span> YourBrand.com-All rights reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends here -->
+    
+	<!-- Back To Top -->
+	<div class="backtotop"></div>
+
+	<!-- Preload Spinner -->
+	<div class="preloadSpinner"></div>
+
+	<!--J-Query Js-->
+	<script src="js/jquery.min.js"></script> 
+	<!--Bootstrap Js-->
+	<script src="js/bootstrap.min.js"></script>
+	<!--JQuery validate Js-->
+	<script src="js/validate.min.js"></script>
+    <!-- Main JS file -->
+    <script src="js/custom.js"></script>
+    <!-- Product Display Section - JS -->
+    <script src="js/custom2.js"></script>
+ 
+</body>
+</html>
